@@ -37,7 +37,7 @@
                         </tr>
                        </table>
                          <input type="submit" class="btn btn-success" value="login"> <br>
-                         <a href="http://lab/signup.php"> Sign up now! </a>
+			       <a href="http://95.217.166.217/signup.php"> Sign up now! </a>
                        </div>
                     </form>
              </body>
