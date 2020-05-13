@@ -313,7 +313,7 @@ print "You will return to the start page in 10 seconds";
 
 mysqli_close($link);
 
-header ('Refresh:10; URL = http://95.217.23.70/index.php');
+header ('Refresh:10; URL = http://95.217.166.217/index.php');
 
 die();
 
@@ -379,7 +379,7 @@ print "~You will return to the start page in 10 seconds~";
 
 mysqli_close($link);
 
-header ('Refresh:10; URL = http://95.217.23.70/index.php');
+header ('Refresh:10; URL = http://95.217.166.217/index.php');
 
 die();
 
@@ -595,7 +595,7 @@ die();
 
 <br>
 
-<br> <a href="http://95.217.23.70/index.php"> Concede... </a>
+<br> <a href="http://95.217.166.217/index.php"> Concede... </a>
 
 </div3>
 
