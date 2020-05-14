@@ -30,7 +30,7 @@ setcookie('cookie_create_time', '');
 
 setcookie('cookie_time', '');
 
-header("Location: http://95.217.166.217/login.php");
+header("Location: login.php");
 
 die();
 }
@@ -57,7 +57,7 @@ goto exist;
 
 mysqli_close($link);
 
-header("Location: http://95.217.166.217/loginDOESNTEXIST.php");
+header("Location: loginDOESNTEXIST.php");
 
 die();
 
@@ -85,7 +85,7 @@ setcookie('cookie_create_time', time());
 
 mysqli_close($link);
 
-header("Location: http://95.217.166.217/index.php");
+header("Location: index.php");
 
 }
 
@@ -93,7 +93,7 @@ else {
 
 mysqli_close($link);
 
-header("Location: http://95.217.166.217/loginWRONGPASS.php");
+header("Location: loginWRONGPASS.php");
 
 }
 
