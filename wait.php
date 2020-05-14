@@ -38,7 +38,7 @@ $query = "UPDATE players SET time = 0 WHERE login = '$user'";
 
 $result=mysqli_query($link, $query);
 
-header("Location: http://95.217.166.217/game.php");
+header("Location: game.php");
 
 die();
 
@@ -58,7 +58,7 @@ $query = "UPDATE players SET time = 0 WHERE login = '$user'";
 
 $result=mysqli_query($link, $query);
 
-header("Location: http://95.217.166.217/game.php");
+header("Location: game.php");
 
 die();
 
