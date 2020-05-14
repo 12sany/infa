@@ -2,7 +2,7 @@
 
 if (isset($_COOKIE['cookie_token'])) {
 
-header("Location: http://95.217.166.217/index.php");
+header("Location: index.php");
 
 die();
 
@@ -50,9 +50,6 @@ transform: translate(-50%, -50%);
 
 <div align = "center">
 
-….. <h4 class="alert alert-danger">Клиента с введенным Login не существует! <br> Пройдите регистрацию! </h4> …. – Для страницы loginDOESNTEXIST.php
-
-….. <h4 class="alert alert-danger">Неверный пароль!</h4> …. – Для страницы loginWRONGPASS.php
 
 <table>
 
@@ -76,7 +73,7 @@ transform: translate(-50%, -50%);
 
 <input type="submit" class="btn btn-success" value="login"> <br>
 
-<a href="http://95.217.166.217/signup.php"> Sign up now! </a>
+<a href="signup.php"> Sign up now! </a>
 
 </div>
 
